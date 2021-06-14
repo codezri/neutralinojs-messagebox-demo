@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div>
+      <div>Message type</div>
+      <select id="type">
+        <option value="INFO">Info</option>
+        <option value="WARN">Warning</option>
+        <option value="ERROR">error</option>
+        <option value="QUESTION">Question</option>
+      </select>
+      <div>Title</div>
+      <input type="text" id="title" value="Neutralinojs"/>
+      <div>content</div>
+      <textarea id="content">Your message box content goes here..</textarea>
+      <br/>
+      <button onclick="window.showMessageBox();">Show</button>
+      <span id="result"></span>
+    </div>
+    <script src="js/neutralino.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
